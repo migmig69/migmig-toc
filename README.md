@@ -334,6 +334,50 @@ _This page also contains some Code for me to speed up the Video_
     </div>
 ```
 
+- Add these styles to `style.css`:
+
+```css
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold text-[#031b4e] mb-1 mt-4;
+}
+
+h1 {
+  @apply text-[1.8rem];
+}
+
+h2 {
+  @apply text-[1.6rem];
+}
+
+h3 {
+  @apply text-[1.42rem];
+}
+
+h4 {
+  @apply text-[1.26rem];
+}
+
+h5 {
+  @apply text-[1.12rem];
+}
+
+h6 {
+  @apply text-base;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-black/70 rounded-lg;
+}
+
+::-webkit-scrollbar {
+  @apply w-1;
+}
+```
+
 - Create `TOC.tsx` Component, it only has one prop: "selector"
 - Select all headings in the container and generate a unique number as data-id for each on of them.
 - Render your heading list.
