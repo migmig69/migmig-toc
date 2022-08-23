@@ -337,4 +337,4 @@ _This page also contains some Code for me to speed up the Video_
 - Create `TOC.tsx` Component, it only has one prop: "selector"
 - Select all headings in the container and generate a unique number as data-id for each on of them.
 - Render your heading list.
-- We need auto scroll for our heading list. Parent element scroll`s up and down to find the current the heading.
+- We need auto scroll for our heading list. Parent element should scroll up and down to find the current heading.
